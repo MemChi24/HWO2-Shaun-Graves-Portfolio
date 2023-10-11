@@ -1,0 +1,27 @@
+*{
+    background-color: dodgerblue;
+
+}
+
+
+
+.name{
+    margin: 1em;
+    background-color: aqua;
+    max-width: max-content;
+    padding: .25em;
+}
+
+.header nav{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+
+}
+
+img{
+width: 400px;
+height: 600px;
+}

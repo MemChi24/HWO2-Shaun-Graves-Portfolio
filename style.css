@@ -1,27 +1,63 @@
 *{
-    background-color: dodgerblue;
 
 }
 
-
-
-.name{
-    margin: 1em;
-    background-color: aqua;
-    max-width: max-content;
-    padding: .25em;
-}
-
-.header nav{
-    float: right;
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    border-bottom: 1px solid black;
-    list-style-type: none;
-
 }
 
-img{
-width: 400px;
-height: 600px;
+
+header {
+    color: rgb(16, 16, 130);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.name {
+    background-color: rgb(23, 218, 153);
+    color: rgb(16, 16, 130);
+    padding: 5px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(16, 16, 130);
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background: darkolivegreen;
+}
+
+.photo {
+    width: 75%;
+    overflow: hidden;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
 }

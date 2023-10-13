@@ -45,7 +45,7 @@ nav a {
     padding: 25px 20px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 14px;
 }
@@ -89,6 +89,57 @@ nav a:hover {
     margin: 0px;
 }
 
+.Horiseon{
+    margin-top: -30px;
+    color: pink;
+}
+
 .work{
     margin-top: 40px;
+}
+
+.footer{
+    list-style: none;
+    display: flex;
+    color: rgb(16, 16, 130);
+    display: flex;
+    align-items: right;
+    padding: 60px;
+    background-color: cornflowerblue;
+}
+
+.footer h2{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(16, 16, 130);
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer h3{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(16, 16, 130);
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+
+
+
+}
+.footer h3:hover {
+    background: darkolivegreen;
 }

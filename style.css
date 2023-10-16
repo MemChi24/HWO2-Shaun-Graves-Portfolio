@@ -47,6 +47,7 @@ nav a {
     font-weight: bold;
     font-family: 'Franklin Gothic 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    text-decoration: underline;
     font-size: 14px;
 }
 
@@ -69,7 +70,15 @@ nav a:hover {
     color: pink;
 }
 
+#About{
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+}
+
 .container{
+    box-sizing: border-box;
+    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -92,13 +101,14 @@ nav a:hover {
 .Horiseon{
     margin-top: -30px;
     color: pink;
+    font-size: large;
 }
 
 .work{
     margin-top: 40px;
 }
 
-.footer{
+#Contact{
     list-style: none;
     display: flex;
     color: rgb(16, 16, 130);
@@ -108,7 +118,7 @@ nav a:hover {
     background-color: cornflowerblue;
 }
 
-.footer h2{
+#Contact h2{
     margin-right: 10px;
     text-decoration: none;
     color: rgb(16, 16, 130);
@@ -123,7 +133,7 @@ nav a:hover {
     font-size: 16px;
 }
 
-.footer h3{
+#Contact h3{
     margin-right: 10px;
     text-decoration: none;
     color: rgb(16, 16, 130);
@@ -140,6 +150,11 @@ nav a:hover {
 
 
 }
-.footer h3:hover {
+#Contact h3:hover {
     background: darkolivegreen;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+
+
+@media only screen and (max-width: 767px)

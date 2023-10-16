@@ -21,6 +21,9 @@ A portfolio to show Shaun Graves professional work.
  -Shaun Graves - shaungrvs@yahoo.com
 
   -Project Link :
+  https://github.com/MemChi24/HWO2-Shaun-Graves-Portfolio
 
 
   ## Screenshot
+
+![Alt text](assets/screencapture-127-0-0-1-5500-index-html-2023-10-15-20_20_29.png)
